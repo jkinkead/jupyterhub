@@ -8,8 +8,8 @@ Security settings
 Security is the most important aspect of configuring Jupyter. Three
 configuration settings are the main aspects of security configuration:
 
-1. :ref:`SSL encryption <ssl-encryption>` (to enable HTTPS)
-2. :ref:`Cookie secret <cookie-secret>` (a key for encrypting browser cookies)
+1. `SSL encryption`_ (to enable HTTPS)
+2. `Cookie secret`_ (a key for encrypting browser cookies)
 3. Proxy :ref:`authentication token <authentication-token>` (used for the Hub and
    other services to authenticate to the Proxy)
 
@@ -18,7 +18,7 @@ database. A loss of control over read-access to the database should have
 minimal impact on your deployment; if your database has been compromised, it
 is still a good idea to revoke existing tokens.
 
-.. _ssl-encryption:
+.. _SSL encryption:
 
 Enabling SSL encryption
 -----------------------
@@ -75,7 +75,7 @@ If SSL termination happens outside of the Hub
 In certain cases, e.g. behind `SSL termination in NGINX <https://www.nginx.com/resources/admin-guide/nginx-ssl-termination/>`_,
 allowing no SSL running on the hub may be the desired configuration option.
 
-.. _cookie-secret:
+.. _Cookie secret:
 
 Cookie secret
 -------------
